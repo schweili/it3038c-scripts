@@ -20,10 +20,10 @@ http.createServer((req, res) => {
       <body>
         <p>Hostname: ${myHostName}</p>
         <p>IP: ${ip.address()}</p>
-        <p>Server Uptime: </p>
-        <p>Total Memory: </p>
-        <p>Free Memory: </p>
-        <p>Number of CPUs: </p>
+        <p>Server Uptime: ${os.uptime()}</p>
+        <p>Total Memory: ${os.totalmem()}</p>
+        <p>Free Memory: ${os.freemem()}</p>
+        <p>Number of CPUs: ${os.cpus()}</p>
       </body>
     </html>`
     res.writeHead(200, {"Content-Type": "text/html"});
