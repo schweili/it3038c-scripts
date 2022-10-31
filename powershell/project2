@@ -1,0 +1,12 @@
+## Python script that tells you the current date and time. 
+
+## Import
+import datetime
+
+
+## Variable
+current = datetime.datetime.now()
+
+## Print time and date
+print ("The Current date and time is: ")
+print (current.strftime("%Y-%m-%d %H:%M:%S"))
