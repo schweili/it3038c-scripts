@@ -1,4 +1,7 @@
-Was working on previous script that was submitted in project 1, but was running into issues with formatting and couldn't properly get the program to output correctly, so
-I decided to write a completetly new script for this project that prints out the current date and time in python. 
+This is the README.md file for my Final Project (continuation of my frist project)
 
-The script works by simply just running it and it will output the current date and time. 
+The script I developed was written in python and its purpose is to display all the storage drives on your computer and tell you information about the storage space on those drives.
+
+My script does not reqiure any input from the user, all that is needed to run the script is powershell.
+
+Running the script on your computer should display all the current drives you have on your computer and will provide information on how much space is on the drive and how much storage you have used.
